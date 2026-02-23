@@ -45,3 +45,8 @@ dependencies = [
 dev = [
     "ipykernel>=6.29.5",
 ]
+
+[tool.uv]
+override-dependencies = [
+    "av>=9.0,<14",
+]
