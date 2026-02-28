@@ -151,5 +151,23 @@
     "cataloged_at": "2026-02-24T17:58:13.758138",
     "downloaded_at": "2026-02-24T18:26:22.354640",
     "local_path": "/home/daniel/COMS3261W - COMPUTER SCIENCE THEORY/unfiled/Note-Taker_Sample_Sheet.docx"
+  },
+  "26769073": {
+    "name": "lecture10.pdf",
+    "folder": "course files/Handouts",
+    "size_bytes": 100080,
+    "canvas_updated": "2026-02-25T18:04:57Z",
+    "cataloged_at": "2026-02-28T13:07:32.728982",
+    "downloaded_at": "2026-02-28T13:07:32.728992",
+    "local_path": "/mnt/c/Users/97254/Desktop/Columbia/S26/COMS3261W - COMPUTER SCIENCE THEORY/Handouts/lecture10.pdf"
+  },
+  "26803378": {
+    "name": "hw3.pdf",
+    "folder": "course files/Homeworks",
+    "size_bytes": 111737,
+    "canvas_updated": "2026-02-28T16:33:54Z",
+    "cataloged_at": "2026-02-28T13:07:33.801553",
+    "downloaded_at": "2026-02-28T13:07:33.801566",
+    "local_path": "/mnt/c/Users/97254/Desktop/Columbia/S26/COMS3261W - COMPUTER SCIENCE THEORY/Homeworks/hw3.pdf"
   }
 }
