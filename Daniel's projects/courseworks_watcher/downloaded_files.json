@@ -169,5 +169,41 @@
     "cataloged_at": "2026-02-28T13:07:33.801553",
     "downloaded_at": "2026-02-28T13:07:33.801566",
     "local_path": "/mnt/c/Users/97254/Desktop/Columbia/S26/COMS3261W - COMPUTER SCIENCE THEORY/Homeworks/hw3.pdf"
+  },
+  "26829259": {
+    "name": "lecture10.pdf",
+    "folder": "course files/Handouts",
+    "size_bytes": 98801,
+    "canvas_updated": "2026-03-02T22:40:04Z",
+    "cataloged_at": "2026-03-03T18:35:16.924377",
+    "downloaded_at": "2026-03-03T18:35:16.924452",
+    "local_path": "/mnt/c/Users/97254/Desktop/Columbia/S26/COMS3261W - COMPUTER SCIENCE THEORY/Handouts/lecture10.pdf"
+  },
+  "26841897": {
+    "name": "hw2solution.pdf",
+    "folder": "course files/Homework Solutions",
+    "size_bytes": 158605,
+    "canvas_updated": "2026-03-03T20:52:05Z",
+    "cataloged_at": "2026-03-03T18:35:22.236323",
+    "downloaded_at": "2026-03-03T18:35:22.236335",
+    "local_path": "/mnt/c/Users/97254/Desktop/Columbia/S26/COMS3261W - COMPUTER SCIENCE THEORY/Homework Solutions/hw2solution.pdf"
+  },
+  "26842251": {
+    "name": "hw3.pdf",
+    "folder": "course files/Homeworks",
+    "size_bytes": 288357,
+    "canvas_updated": "2026-03-03T20:27:41Z",
+    "cataloged_at": "2026-03-03T18:35:24.770315",
+    "downloaded_at": "2026-03-03T18:35:24.770324",
+    "local_path": "/mnt/c/Users/97254/Desktop/Columbia/S26/COMS3261W - COMPUTER SCIENCE THEORY/Homeworks/hw3.pdf"
+  },
+  "26829272": {
+    "name": "lecture11.pdf",
+    "folder": "course files/Handouts",
+    "size_bytes": 106725,
+    "canvas_updated": "2026-03-02T22:40:40Z",
+    "cataloged_at": "2026-03-03T18:35:56.021171",
+    "downloaded_at": "2026-03-03T18:35:56.021235",
+    "local_path": "/mnt/c/Users/97254/Desktop/Columbia/S26/COMS3261W - COMPUTER SCIENCE THEORY/Handouts/lecture11.pdf"
   }
 }

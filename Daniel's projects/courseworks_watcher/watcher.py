@@ -140,14 +140,30 @@ def ensure_dir(path: Path) -> None:
 
 def download_file(file_info: dict, dest: Path) -> None:
     ensure_dir(dest.parent)
-    # Canvas redirects to an S3 URL; follow redirects, no auth needed after first hop
-    resp = requests.get(
-        file_info["url"],
-        headers=canvas_headers(),
-        stream=True,
-        allow_redirects=True,
-        timeout=60,
-    )
+
+    def fetch(url: str) -> requests.Response:
+        resp = requests.get(
+            url,
+            headers=canvas_headers(),
+            stream=True,
+            allow_redirects=True,
+            timeout=60,
+        )
+        return resp
+
+    resp = fetch(file_info["url"])
+
+    # CDN tokens are short-lived — on 401 re-fetch a fresh URL from Canvas and retry once
+    if resp.status_code == 401:
+        log.info("  CDN token expired, fetching fresh URL…")
+        fresh = requests.get(
+            f"{CANVAS_BASE}/api/v1/files/{file_info['id']}",
+            headers=canvas_headers(),
+            timeout=30,
+        )
+        fresh.raise_for_status()
+        resp = fetch(fresh.json()["url"])
+
     resp.raise_for_status()
     with open(dest, "wb") as fh:
         for chunk in resp.iter_content(chunk_size=8192):
